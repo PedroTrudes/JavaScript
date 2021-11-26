@@ -17,7 +17,7 @@ const carro1 = new Carros();
 
 carro1.modelo = "Evoque";
 carro1.placa = "qbc3005";
-carro1.cor = "Preto";
+carro1.cor = "branco";
 carro1.valor = 45.000;
 
 
