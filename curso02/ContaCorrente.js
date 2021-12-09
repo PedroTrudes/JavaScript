@@ -1,9 +1,31 @@
+import { Cliente } from "./Cliente.js";
+
 export class ContaCorrente {
-    cliente;
+    static numeroDeContas = 0;
     agencia;
     
+    _cliente;
     _saldo = 0;
+
+    set cliente(novoValor){
+      if(novoValor instanceof Cliente){
+      this._cliente = novoValor;
+    }
+    }
+
+    get cliente(){
+      return this._cliente;
+    }
+
+    get saldo(){
+      return this._saldo;
+    }
     
+    constructor (cliente, agencia) {
+      this._cliente = cliente;
+      this.agencia = agencia;
+      ContaCorrente.numeroDeContas += 1;
+    }
   
     sacar(valor) {
       // não pode sacar mais doque o limite na conta
