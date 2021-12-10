@@ -1,0 +1,13 @@
+{
+    "name": "Classes-teste-escola",
+    "version": "1.0.0",
+    "description": "Projeto de banco no curso alura",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Pedro Trudes",
+    "license": "ISC",
+    "type": "module"
+  }
+  
