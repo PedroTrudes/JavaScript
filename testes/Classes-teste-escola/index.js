@@ -7,8 +7,8 @@ const aluno3 = new Alunos(2, "Julia", 1, 3);
 const aluno4 = new Alunos(3,"Carol", 4, 4);
 
 
-const pro1 = new Professores("Antonio", "Sistemas OP",1, 2, 4);
-const pro2 = new Professores("Carla", "LGPD", 1, 3, 2);
+const pro1 = new Professores("Antonio", "Sistemas OP",1);
+const pro2 = new Professores("Carla", "LGPD", 1);
 
 console.log(pro1, pro2);
 console.log(aluno1, "\n" ,aluno2,"\n", aluno3, "\n", aluno4);
